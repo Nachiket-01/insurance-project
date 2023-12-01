@@ -35,7 +35,7 @@ public class App
     // open url
     System.out.println("Driver opening up the url in browser");	
     WebDriver driver = new ChromeDriver(chromeOptions);
-    driver.get("http://3.111.47.113:8081/contact.html"); //localhost	
+    driver.get("http://3.7.252.84:8081/contact.html"); //localhost	
     
     //invole implicit waits to load the page
     driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
